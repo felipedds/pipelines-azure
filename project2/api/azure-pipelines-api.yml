@@ -4,8 +4,10 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
-
+  paths:
+    include:
+      - project2/api/**
+      
 pool:
   name: Default
 
